@@ -5,8 +5,8 @@ from spotipy.oauth2 import SpotifyOAuth
 app = Flask(__name__)
 
 sp = spotipy.Spotify(auth_manager=SpotifyOAuth(
-    client_id="SPOTIFY_CLIENT_ID",
-    client_secret="SPOTIFY_CLIENT_SECRET",
+    client_id="40f5a4a6332b4e81830a758a565f4503",
+    client_secret="3a8931ee472b4d688b299637d5c5f2f0",
     redirect_uri="https://yourrenderapp.onrender.com/callback",
     scope="user-read-playback-state user-modify-playback-state"
 ))
